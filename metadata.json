@@ -1,0 +1,6 @@
+{
+  "name": "Simply Exponential Training Academy",
+  "description": "A modern, professional, and conversion-focused training academy website for Simply Exponential Consult Limited (SECL), equipping learners with job-ready digital skills, expert mentorship, and career placement support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

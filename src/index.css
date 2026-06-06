@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Brand-specific remapping of Indigo palette to Simply Exponential Plum and Pink */
+  --color-indigo-50: #fbf6f9;
+  --color-indigo-100: #f4eaef;
+  --color-indigo-200: #e9cedd;
+  --color-indigo-300: #ca819f; /* Brand Accent Rose */
+  --color-indigo-400: #ca819f; /* Brand Accent Rose */
+  --color-indigo-500: #8c4e75; /* Soft brand primary */
+  --color-indigo-600: #734060; /* Brand Primary Plum */
+  --color-indigo-700: #5c304d; /* Brand Deep Plum */
+  --color-indigo-800: #49223a;
+  --color-indigo-900: #371529;
+  --color-indigo-950: #240a1a;
+  
+  /* Remap Blue palette as well to align with brand colors */
+  --color-blue-500: #8c4e75;
+  --color-blue-600: #734060;
+  --color-blue-700: #5c304d;
+}
+
+/* Cross-browser Scrollbar and Slider Indicator styling */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(115, 64, 96, 0.35) transparent; /* custom brand primary track color */
+}
+
+/* Chrome, Edge, Safari, Opera */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(244, 234, 239, 0.5); /* Brand Light 100/50 */
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ca819f 0%, #734060 100%); /* Brand rose to brand plum gradient */
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #734060 0%, #5c304d 100%); /* Solid brand primary hover */
+  box-shadow: 0 2px 5px rgba(115, 64, 96, 0.25);
+}
+
+/* Custom scrollbar track styling inside lists */
+.overflow-y-auto {
+  scroll-behavior: smooth;
+}
+
+/* Smooth Scrolling Globally */
+html {
+  scroll-behavior: smooth;
+}
