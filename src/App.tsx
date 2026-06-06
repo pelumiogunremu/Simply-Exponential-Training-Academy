@@ -59,16 +59,7 @@ export default function App() {
 
   return (
     <div className="flex flex-col min-h-screen bg-slate-50 text-slate-900 font-sans antialiased">
-      {/* Top micro coordinates info ribbon */}
-      <div className="bg-indigo-50 text-indigo-700 py-2.5 px-4 sm:px-8 lg:px-12 text-[11px] font-mono border-b border-indigo-100">
-        <div className="w-full flex flex-col sm:flex-row justify-between items-center gap-2">
-          <span>📍 No 4, (old No. 1A), Akin Osiyemi Street off Allen Avenue, Ikeja Lagos</span>
-          <div className="flex gap-4">
-            <span>📞 Direct Desk: +234 803 301 9120</span>
-            <span>✉ info@simplyexponential.com</span>
-          </div>
-        </div>
-      </div>
+
 
       {/* Global Navigation navbar */}
       <Navigation
