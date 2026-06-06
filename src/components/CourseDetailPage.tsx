@@ -62,10 +62,7 @@ export default function CourseDetailPage({ courseSlug, onBack, onApply }: Course
           </button>
           
           <div className="max-w-3xl">
-            <span className="bg-white/10 text-white font-mono text-[9px] sm:text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider border border-white/20">
-              {course.format}
-            </span>
-            <h1 className="text-2xl sm:text-4xl font-sans font-black tracking-tight mt-4 leading-tight">
+            <h1 className="text-2xl sm:text-4xl font-sans font-black tracking-tight leading-tight">
               {course.title} Professional Program
             </h1>
             <p className="text-slate-205 text-xs sm:text-sm font-medium mt-3 leading-relaxed max-w-xl">

@@ -13,10 +13,7 @@ export default function CareerSupportPage() {
         
         {/* Banner Section */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-[11px] font-mono font-bold text-indigo-600 uppercase tracking-widest bg-indigo-100/50 border border-indigo-200/50 px-3 py-1 rounded-full">
-            Employability Services
-          </span>
-          <h1 className="text-3xl sm:text-5xl font-sans font-black tracking-tight text-slate-900 mt-4 leading-none">
+          <h1 className="text-3xl sm:text-5xl font-sans font-black tracking-tight text-slate-900 leading-none">
             Our Career Support &amp; Placement Program
           </h1>
           <p className="text-sm sm:text-base text-slate-655 mt-4 leading-relaxed">

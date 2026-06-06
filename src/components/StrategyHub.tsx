@@ -27,10 +27,7 @@ export default function StrategyHub() {
             <Sparkles className="h-44 w-44 text-indigo-500" />
           </div>
           <div className="relative z-10 max-w-3xl text-slate-900">
-            <span className="bg-indigo-100 text-indigo-700 font-bold font-mono text-[10px] tracking-widest uppercase px-3.5 py-1.5 rounded-full border border-indigo-200/50">
-              Deliverable Specifications
-            </span>
-            <h1 className="text-3xl sm:text-5xl font-sans font-black text-slate-900 tracking-tight leading-tight mt-4">
+            <h1 className="text-3xl sm:text-5xl font-sans font-black text-slate-900 tracking-tight leading-tight">
               Simply Exponential Design &amp; Strategy Hub
             </h1>
             <p className="text-slate-600 font-medium text-sm sm:text-base mt-3 leading-relaxed">
