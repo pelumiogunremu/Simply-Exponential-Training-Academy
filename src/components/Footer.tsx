@@ -182,7 +182,7 @@ export default function Footer({ onPageChange, onApplyNow }: FooterProps) {
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="h-4 w-4 text-indigo-500 flex-shrink-0" />
-                <span className="text-slate-600">+234 (0) 803 301 9120</span>
+                <span className="text-slate-600">09086297109 and 08034030366</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="h-4 w-4 text-indigo-500 flex-shrink-0" />

@@ -58,7 +58,7 @@ export default function ContactPage() {
                   <Phone className="h-5 w-5 text-indigo-500 flex-shrink-0" />
                   <div>
                     <span className="text-[10px] text-indigo-600 block uppercase font-mono font-bold">Mobile Registrar Desk</span>
-                    <span className="font-bold text-slate-900 font-mono text-xs">+234 (0) 803 301 9120</span>
+                    <span className="font-bold text-slate-900 font-mono text-xs">09086297109 and 08034030366</span>
                   </div>
                 </div>
 
