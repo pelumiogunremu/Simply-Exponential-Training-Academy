@@ -43,15 +43,7 @@ export default function Homepage({ onNavigate, onApply }: HomepageProps) {
         
         <div className="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <span className="bg-indigo-100 text-indigo-700 font-bold font-mono text-[10px] sm:text-xs tracking-widest uppercase px-4 py-1.5 rounded-full border border-indigo-200/60 inline-flex items-center gap-2 shadow-sm whitespace-nowrap">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-500 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-600"></span>
-              </span>
-              Future-Proof Academy • SECL
-            </span>
-            
-            <h1 className="text-3xl sm:text-5xl font-sans font-black tracking-tight leading-none mt-6 text-slate-900">
+            <h1 className="text-3xl sm:text-5xl font-sans font-black tracking-tight leading-none text-slate-900">
               Future-Ready Digital Skills for Employment, Entrepreneurship and Innovation
             </h1>
             
